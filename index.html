@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/html5reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Student Success Portal</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="#main-content" class="skip-link">Skip to Main Content</a>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="food_pantry.html">Food Pantry</a></li>
+                <li><a href="tutoring.html">Tutoring Services</a></li>
+                <li><a href="caps.html">CAPS</a></li>
+            </ul>
+        </nav>
+        <h1>Student Success Portal</h1>
+
+    </header>
+    <main id="main-content">
+        <section>
+            <h2>Welcome to the UM Grad Success Navigator</h2>
+            <p> Your Comprehensive Guide to Resources for Graduate School Success</p>
+            <p>This guide is set up to help you be successul inside and outside of the classroom and we have included
+                the following resources throughout our site:</p>
+            <ol>
+                <li><a href="#academic">Academic Resources</a></li>
+                <li><a href="#physical-health">Physical Health</a></li>
+                <li><a href="#health">Mental Health</a></li>
+                <li><a href="#life-outside-classroom">Life Outside the Classroom</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ol>
+        </section>
+
+
+        <section id="academic">
+            <h2>Academic Resources</h2>
+            <p>Explore resources that help you thrive academically, including tutoring services and study spaces. Visit
+                our <a href="tutoring.html">Tutoring Services</a> page for more information.</p>
+            <figure>
+                <img src="images/ugli.JPG" alt="The Shapiro Undergraduate Library at the University of Michigan">
+                <figcaption>The Shapiro Undergraduate Library (UGLi), a hub for academic resources and study spaces.
+                </figcaption>
+            </figure>
+        </section>
+
+
+        <section id="physical-health">
+            <h2>Physical Health</h2>
+            <p>Maintaining your physical health is crucial for overall success. The <a href="food_pantry.html">Food
+                    Pantry</a>
+                page provides information on how to access free, nutritious food to ensure you’re well-nourished and
+                ready for
+                your studies.</p>
+            <figure>
+                <img src="images/UHS.jpg" alt="University Health Services building">
+                <figcaption>University Health Services Building, offering medical care for students.</figcaption>
+            </figure>
+        </section>
+
+        <section id="health">
+            <h2>Mental Health</h2>
+            <p>Take care of your mental health with services provided by Counseling and Psychological Services (CAPS).
+                From
+                individual counseling to urgent crisis support, you can find everything you need on the <a
+                    href="caps.html">CAPS</a> page.</p>
+            <figure>
+                <img src="images/support.jpg" alt="Support resources image">
+                <figcaption>Mental health resources for a balanced and successful academic journey.</figcaption>
+            </figure>
+        </section>
+
+        <section id="life-outside-classroom">
+            <h2>Life Outside the Classroom</h2>
+            <p>Graduate school is more than just academics. Explore opportunities to engage with the community, join
+                student
+                organizations, and build a balanced lifestyle. Check out resources for managing life outside of classes,
+                from
+                recreational sports to student organizations.</p>
+            <figure>
+                <img src="images/UMSI_CampusFall_UMSIBackpack_02.jpg" alt="A student wearing a UMSI backpack in fall">
+                <figcaption>UMSI students enjoying life on campus in the fall.</figcaption>
+            </figure>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you need additional support or have questions about resources, feel free to reach out to UMSI Academic
+                Advising for assistance. Visit the <a
+                    href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources"
+                    target="_blank">UMSI
+                    Academic Advising Website</a>.</p>
+        </section>
+        <!-- Content taken & modified from UMGPT with the prompt, "write me a webpage of intro content to help University of Michigan Master's students navigate different resources for being successful in grad school - this will include academic resources, physical health resources, mental health resources, support for life outside the classroom"
+        UMGPT. (2024). UMGPT (August 29th version) [Large language model]. -->
+    </main>
+    <footer>
+        <p>© <span id="year"></span> Student Success Portal. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+
+
+</body>
+
+</html>
